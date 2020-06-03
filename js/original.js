@@ -609,37 +609,71 @@
 
 // To string
 
-console.log(typeof(5 + ''));
+// console.log(typeof(5 + ''));
 
-const num = 5;
+// const num = 5;
 
-console.log('https://vk.com/catalog/' + num);
+// console.log('https://vk.com/catalog/' + num);
 
-const fontSize = 26 + 'px';
-
-
-// To number
-
-console.log(typeof(Number('4')));
+// const fontSize = 26 + 'px';
 
 
-console.log(typeof(+'5'));
+// // To number
+
+// console.log(typeof(Number('4')));
 
 
-console.log(typeof(parseInt("15px", 10)));
+// console.log(typeof(+'5'));
 
 
-// To boolean
+// console.log(typeof(parseInt("15px", 10)));
 
 
-let switcher = null;
+// // To boolean
 
-if (switcher) {
-    console.log('Working...');
-}
 
-switcher = 1;
+// let switcher = null;
 
-if (switcher) {
-    console.log('Working...');
-}
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// [ ] + false - null + true 
+// console.log([] + false - null + true); //Nan
+
+// let y = 1; 
+// let x = y = 2; 
+// alert(x); 
+
+
+// console.log([] + 1 + 2); //12
+
+
+// alert("1"[0]);
+
+// console.log(2 && 1 && null && 0 && undefined); 
+// И запинается на лжи
+// Или запинается на правде
+
+// console.log(!!( 1 && 2 ) === (1 && 2)); //false
+
+                  3
+// alert( null || 2 && 3 || 4 ); //3
+
+
+// const a = [1, 2, 3]; 
+// const b = [1, 2, 3]; 
+// console.log(a == b);
+// Равны ли a == b ? // Не равны 
+
+// alert( +"Infinity" ); //Infinity
+
+// console.log("Ёжик" > "яблоко");
+
+// console.log(0 || "" || 2 || undefined || true || falsе );
